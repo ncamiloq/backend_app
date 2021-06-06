@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
 
 public class MainController {
 
-	@GetMapping("/test")
+	@GetMapping("/")
 	public String test() {
 		return "hola test 2";
 	}
