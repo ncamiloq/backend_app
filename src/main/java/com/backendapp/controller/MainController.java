@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class MainController {
 
-	@GetMapping("/dani")
+	@GetMapping("/jeka")
 	public String test() {
-		return "hola";
+		return "hola jeka";
 	}
 
 	
